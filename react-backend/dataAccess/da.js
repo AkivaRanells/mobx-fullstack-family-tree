@@ -17,7 +17,7 @@ class singletonForDbConnect{
     
 }
 
-const singleDbConnect = new singletonForDbConnect().sequelize;
+const singleDbConnect = new singletonForDbConnect();
 module.exports=singleDbConnect;
 
 // export default singleDbConnect
